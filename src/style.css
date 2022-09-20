@@ -1,0 +1,227 @@
+.content
+{
+    width: 40%;
+    margin: auto;
+    border: 2px solid;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: inset;
+    float: left;
+    padding: 20px;
+}
+.footer
+{
+    width: auto;
+     margin: auto;
+     background-color:#dbe2e0 ;
+     text-align: center;
+     position: relative;
+
+}
+.page-container
+{
+    display: flex;
+    flex-direction: column;
+    
+
+   position: relative;
+}
+.content-wrap
+{
+    flex:1;
+    
+    
+}
+a:hover
+{
+    background-color: crimson;
+    
+    box-shadow: 0 2px 2px #ccc;
+    font-size: large;
+    color:white;
+
+}
+.mcnt
+{
+    width: 45% ;
+    height: 550px;
+    border: 2px solid;
+    border-color: #dbe2e0;
+    margin: auto; padding: auto;
+    float: left;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 20px;
+
+}
+.mcntab
+{
+    width: 95% ;
+    height: 550px;
+    border: 2px solid;
+    border-color: #dbe2e0;
+    margin: auto; padding: auto;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px #dbe2e0;
+
+}
+.mainimg
+{
+    box-shadow: 3px 3px 3px #ccc;
+    border-radius: 20px;
+}
+.title
+{
+    text-align: center;
+    background-color:coral;
+    color: aliceblue;
+    height: 40px;
+    border-radius: 20px;
+}
+.bimg
+{
+    width: 40px;
+    height: 40px;
+    rotate: 90;
+}
+.logform
+{
+     margin: auto;
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 1px 10px 10px #ccc;
+    padding: 10px;
+    border: 2px solid;
+    background-image: url("./images/logbg.jpg");
+}
+.nav-link1
+{
+    
+    color:darkgray;
+    font-size: larger;    
+    list-style-image: url('./images/bulb.gif');   
+    }
+.nav-link1:hover
+{
+    background-color:red;
+    border-radius: 20px;
+    height: 30px;
+    width:300px;
+}
+    
+.btn
+{
+    background-color: red;
+    color:darkgray;
+    font-style: oblique;
+}
+.leftnav
+{
+    width:200px;
+    height: 300px;
+   
+    margin: 25px;
+    border-radius: 20px;
+
+}
+.chg
+{
+    float: right;
+    background-color: bisque;
+}
+.logoti
+{
+    width: 5px;
+    height: 5px;
+    
+}
+.chgform
+{
+    width: 40%;
+    height: 400px;
+    border-radius: 20px;
+        box-shadow: 5px 10px 20px chocolate;
+    margin: auto;
+    padding: 40px;
+    text-align: left;
+    border-color:brown;
+    border: 1px solid;
+}
+h4{
+    margin-left:130px;
+}
+.cemp
+{
+    width: auto;
+}
+.dform
+{
+    width: 40%;
+    height: 400px;
+    border-radius: 20px;
+        box-shadow: 5px 10px 20px chocolate;
+    margin: auto;
+    padding: 40px;
+    text-align: left;
+    border-color:brown;
+    border: 1px solid;
+}
+.sform
+{
+    width: 80%;
+    height: 90%;
+    border-radius: 20px;
+        box-shadow: 5px 10px 20px chocolate;
+     padding: 20px;
+    text-align: left;
+    border-color:brown;
+    border: 1px solid;
+    margin: auto;
+    background-image: url('./images/back1.jpg');
+}
+.empinfo
+{
+    width: 95%;
+    padding: 10px;
+    border: 2px solid;
+    margin: 10px;
+
+}
+.empdata
+{
+    height: 50px;
+    text-align:center;
+    border: 2px solid;
+}
+.meeting
+{
+    width: 80%;
+    height: 95%;
+    border-radius: 20px;
+        box-shadow: 5px 10px 20px chocolate;
+     padding: 20px;
+    text-align: left;
+    border-color:brown;
+    border: 1px solid;
+    margin: auto;
+    
+}
+.meeti
+{
+   margin: auto;
+    width: 400px;
+    height: 200px;
+    box-shadow: 5px 10px 20px chocolate;
+}
+.meettab
+{
+    margin: auto;
+    width: 90%;
+    border: 2px solid;
+}.tdata
+{
+    width: 100px;;
+}
