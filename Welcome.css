@@ -1,0 +1,63 @@
+.Outer{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    width: auto;
+    height: 500px;
+    padding: 10px;
+}
+
+
+.leftbar{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightgray;
+    width: 20%;
+    margin: 3px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.rightbar{
+    display: flex;
+    width: 75%;
+    border: 2px solid lightgray;
+    margin : 3px 3px 3px 50px;
+    justify-content: center;
+    border-radius: 5px;
+    /* align-items: center; */
+
+}
+
+button{
+    margin: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(18, 97, 18);
+    color: white;
+    border-radius: 5px;
+}
+
+.logouti{
+    width: 30px;
+}
+
+
+.chgpsw, .image{
+    float: right;
+}
+
+.info {
+    float:left;
+}
+
+.image{
+    float:right;
+}
+.chgpsw {
+    float:right;
+}
